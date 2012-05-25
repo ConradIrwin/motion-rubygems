@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "motion-rubygems"
-  s.version = "0.1.pre"
+  s.version = "0.1.pre.2"
   s.platform = Gem::Platform::RUBY
   s.author = "Conrad Irwin"
   s.email = "conrad.irwin@gmail.com"

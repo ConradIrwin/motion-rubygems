@@ -29,10 +29,10 @@ module Motion::Project
     # chance of working.
     def self.files(gems)
       gem_files = []
-      gem_files << MotionRubyGems.version_file,
+      gem_files << MotionRubyGems.version_file
       gem_files <<  File.expand_path("../remove_require.rb", __FILE__)
 
-      app.gems.each do |gem|
+      gems.each do |gem|
         gem_files += MotionRubyGems.files_for(gem)
       end
 
